@@ -11,7 +11,7 @@ app = Flask(__name__)
 doctors_df = pd.read_csv('data/doctors_sample_data.csv')
 
 # Configure the API key
-genai.configure(api_key="AIzaSyB_ZEDHU5BNlKE8oNtDFxcuBFeROk5MdlY")
+genai.configure(api_key="Your_key")
 
 def get_specialties_from_csv(file_path='data/doctors_sample_data.csv'):
     try:
